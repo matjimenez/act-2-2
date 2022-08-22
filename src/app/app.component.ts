@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'actividad_2-2';
+  public resultado: number = 1000;
+  public restar(){
+    this.resultado = this.resultado - 5;
+  }
 }
